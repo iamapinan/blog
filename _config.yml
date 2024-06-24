@@ -27,6 +27,10 @@ social:
     - https://linkedin.com/in/iamapinan
     - https://github.com/iamapinan
 
+header_pages:
+  - archive.md
+  - video.md
+
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
