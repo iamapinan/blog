@@ -1,7 +1,8 @@
 title: "iamapinan"
 author: "Apinan Woratrakun"
 description: "Apinan personal blog!. I created this website to share anything about tech, development, or tech-related." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
-
+show_excerpts: false
+url: https://iamapinan.com
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 email: "iamapinan@gmail.com"
@@ -15,11 +16,22 @@ facebook_username: "9apinan"
 youtube_username: "@iamapinan"
 #googleplus_username: +username
 
+# plugin: jekyll-seo-tag
+twitter:
+  username: iamapinan
+  card: summary_large_image
+social:
+  name: Apinan Woratrakun"
+  links:
+    - https://twitter.com/iamapinan
+    - https://linkedin.com/in/iamapinan
+    - https://github.com/iamapinan
+
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "minima"
-
+home_post_limit: 10
 rss: rss
 
 kramdown:
@@ -33,7 +45,7 @@ plugins:
 titles_from_headings:
   strip_title: true
   collections: true
-
+comments_repo: iamapinan/iamapinan.github.io
 defaults:
   - scope:
       path: ""
